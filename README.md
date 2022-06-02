@@ -42,4 +42,4 @@ For questions regarding this application please contact me at:
 
 ## ![alt text](assets/Test3.png)
 
-## Youtube link: https://www.youtube.com/watch?v=myJAbzQNTxo
+## Youtube link: https://youtu.be/myJAbzQNTxo
