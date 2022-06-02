@@ -4,7 +4,7 @@ const Employee = require( "../lib/Employee" );
 ////////////////////////////////////////////
 
 test( "Create an employee object.", () => {
-   const employee = new Employee( "Shellie", 2938, "Shellie@Shellie.Com");
+   const employee = new Employee( "Bossman", 2938, "ekowbossman@gmail.com");
 
    expect( typeof( employee )).toBe( "object" );
    expect( employee.name ).toEqual( expect.any( String ));
@@ -16,7 +16,7 @@ test( "Create an employee object.", () => {
 ////////////////////////////////////////////
 
 test( "Check to see if can getName() or not.", () => {
-   const testName = "Shellie";
+   const testName = "Bossman";
    const employee = new Employee( testName );
 
    expect( employee.getName()).toBe( testName );
@@ -27,7 +27,7 @@ test( "Check to see if can getName() or not.", () => {
 
 test( "Check to see if can getId() or not.", () => {
    const testId = 93847;
-   const employee = new Employee( "Shellie", testId );
+   const employee = new Employee( "Bossman", testId );
 
    expect( employee.getId()).toBe( testId );
 });
@@ -47,7 +47,7 @@ test( "Check to see if can getEmail() or not.", () => {
 
 test( "Use getRole() to return \"Employee\" as role.", () => {
    const testRole = "Employee";
-   const employee = new Employee( "Bossman", 38479, "Shellie@ekowbossman.Com" );
+   const employee = new Employee( "Bossman", 38479, "ekowbossman@gmail.Com" );
 
    expect( employee.getRole()).toBe( testRole );
 });
