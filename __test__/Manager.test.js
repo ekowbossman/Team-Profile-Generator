@@ -5,7 +5,7 @@ const Manager = require( "../lib/Manager" );
 
 test( "Setting manager's office number.", () => {
    const testOfficeNumber = 888;
-   const manager = new Manager( "Shellie", 38472, "Shellie@Shellie.Com", testOfficeNumber );
+   const manager = new Manager( "Bossman", 38472, "ekowbossman@gmail.Com", testOfficeNumber );
 
    expect( manager.officeNumber ).toBe( testOfficeNumber );
 });
@@ -15,7 +15,7 @@ test( "Setting manager's office number.", () => {
 
 test( "Use getRole() to return \"Manager\" as role.", () => {
    const testRole = "Manager";
-   const manager = new Manager( "Shellie", 38472, "Shellie@Shellie.Com", 888 );
+   const manager = new Manager( "Bossman", 38472, "ekowbossman@gmail.Com", 888 );
 
    expect( manager.getRole()).toBe( testRole );
 });

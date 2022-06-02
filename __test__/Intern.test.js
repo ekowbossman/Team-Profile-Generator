@@ -4,8 +4,8 @@ const Intern = require( "../lib/Intern" );
 ////////////////////////////////////////////
 
 test( "Set intern school.", () => {
-   const testSchool = "UCLA Extension";
-   const intern = new Intern( "Shellie", 38495, "Shellie@Shellie.Com", testSchool );
+   const testSchool = "University of Cape Coast";
+   const intern = new Intern( "Bossman", 38495, "ekowbossman@gmail.Com", testSchool );
 
    expect( intern.school ).toBe( testSchool );
 });
@@ -14,8 +14,8 @@ test( "Set intern school.", () => {
 ////////////////////////////////////////////
 
 test( "Set school using getSchool().", () => {
-   const testSchool = "UCLA Extension";
-   const intern = new Intern( "Shellie", 38494, "Shellie@Shellie.Com", testSchool );
+   const testSchool = "University of Cape Coast";
+   const intern = new Intern( "Bossman", 38494, "ekowbossman@gmail.com", testSchool );
 
    expect( intern.getSchool()).toBe( testSchool );
 });
@@ -25,7 +25,7 @@ test( "Set school using getSchool().", () => {
 
 test( "Use getRole() to return \"Intern\" as role.", () => {
    const testRole = "Intern";
-   const intern = new Intern( "Shellie", 20803, "Shellie@Shellie.Com", "UCLA Extension" );
+   const intern = new Intern( "Bossman", 20803, "ekowbossman@gmail.Com", "University of Cape Coast" );
 
    expect( intern.getRole()).toBe( testRole );
 });

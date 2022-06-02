@@ -36,8 +36,8 @@ test( "Check to see if can getId() or not.", () => {
 ////////////////////////////////////////////
 
 test( "Check to see if can getEmail() or not.", () => {
-   const testEmail = "Shellie@Shellie.Com";
-   const employee = new Employee( "Shellie", 29384, testEmail );
+   const testEmail = "ekowbossman@gmail.com";
+   const employee = new Employee( "Bossman", 29384, testEmail );
 
    expect( employee.getEmail()).toBe( testEmail );
 });
@@ -47,7 +47,7 @@ test( "Check to see if can getEmail() or not.", () => {
 
 test( "Use getRole() to return \"Employee\" as role.", () => {
    const testRole = "Employee";
-   const employee = new Employee( "Shellie", 38479, "Shellie@Shellie.Com" );
+   const employee = new Employee( "Bossman", 38479, "Shellie@ekowbossman.Com" );
 
    expect( employee.getRole()).toBe( testRole );
 });

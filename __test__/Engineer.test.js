@@ -4,8 +4,8 @@ const Engineer = require( "../lib/Engineer" );
 ////////////////////////////////////////////
 
 test( "Set engineer's Github username.", () => {
-   const testGithutUsername = "shellienguyen";
-   const engineer = new Engineer( "Shellie", 38475, "Shellie@Shellie.com", testGithutUsername );
+   const testGithutUsername = "ekowbossman";
+   const engineer = new Engineer( "Bossman", 38475, "ekowbossman@gmail.com", testGithutUsername );
 
    expect( engineer.githubUsername ).toBe( testGithutUsername );
 });
@@ -14,8 +14,8 @@ test( "Set engineer's Github username.", () => {
 ////////////////////////////////////////////
 
 test( "Get Github account using getGithub().", () => {
-   const testGithubUsername = "shellienguyen";
-   const engineer = new Engineer( "Shellie", 39482, "Shellie@Shellie.Com", testGithubUsername );
+   const testGithubUsername = "ekowbossman";
+   const engineer = new Engineer( "Bossman", 39482, "ekowbossman@gmail.Com", testGithubUsername );
 
    expect( engineer.getGithubUsername()).toBe( testGithubUsername );
 });
@@ -25,7 +25,7 @@ test( "Get Github account using getGithub().", () => {
 
 test( "Use getRole() to return \"Engineer\" as role.", () => {
    const testRole = "Engineer";
-   const engineer = new Engineer( "Shellie", 38472, "Shellie@Shellie.Com" );
+   const engineer = new Engineer( "Bossman", 38472, "ekowbossman@gmail.com" );
 
    expect( engineer.getRole()).toBe( testRole );
 });
